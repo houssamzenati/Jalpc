@@ -4,10 +4,10 @@
     detail: IBM Research 
     i18n: 
   desc:
-    detail: I worked at IBM Research in the AI laboratory in Tokyo. My research was on deep reinforcement learning.
+    detail: I worked at IBM Research in the AI laboratory in Tokyo. My research was on deep reinforcement learning, especially on developping algorithms to learn control policies for constrained robotics problems.
     i18n: company_a_desc
   date:
-    detail: June 2018 to August 2018
+    detail: Jun. 2018 - Aug. 2018
     i18n: company_a_date
   job:
     detail: Research Intern
@@ -18,11 +18,11 @@
     detail: Institute for Infocomm Research, A*STAR
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: I worked at the Computer Vision Lab of I2R in Singapore. I worked mainly on anomaly detection using deep learning models. I also actively participated to semi-supervised learning research projects as well as algorithms on convergence of multi-agents games and saddle points. 
     i18n: company_b_desc
   date:
-    detail: August 2017 to June 2018
+    detail: Aug. 2017 - Jun. 2018
     i18n: company_b_date
   job:
-    detail: Research Intern/ Research Engineer
+    detail: Research Intern - Research Engineer
     i18n: company_b_job

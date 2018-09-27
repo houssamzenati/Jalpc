@@ -1,0 +1,41 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: ENS Paris-Saclay 
+    i18n: 
+  desc:
+    detail: Master MVA is a prestigious research Master in France, specialized in Computer Vision and Machine Learning. It is taught by top professors and researchers of France in optimization, statistics and machine learning.
+    i18n: company_a_desc
+  date:
+    detail: Sept. 2018 - Aug. 2019
+    i18n: company_a_date
+  job:
+    detail: M.Sc. in applied mathematics, computer vision, and learning (MVA)
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: CentraleSupélec
+    i18n: company_b
+  desc:
+    detail: I worked at the Computer Vision Lab of I2R in Singapore. I worked mainly on anomaly detection using deep learning models. I also actively participated to semi-supervised learning research projects as well as algorithms on convergence of multi-agents games and saddle points. 
+    i18n: company_b_desc
+  date:
+    detail: Sept. 2015 - Aug. 2019
+    i18n: company_b_date
+  job:
+    detail: M.Eng. in applied mathematics, computer science
+    i18n: company_b_job
+
+- name:
+    detail: Lycée Louis Le Grand
+    i18n: company_b
+  desc:
+    detail: I worked at the Computer Vision Lab of I2R in Singapore. I worked mainly on anomaly detection using deep learning models. I also actively participated to semi-supervised learning research projects as well as algorithms on convergence of multi-agents games and saddle points. 
+    i18n: company_b_desc
+  date:
+    detail: Sept. 2013 - Aug. 2015
+    i18n: company_b_date
+  job:
+    detail: Classes Préparatoires aux Grandes Ecoles
+    i18n: company_b_job
