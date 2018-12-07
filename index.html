@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: index
 permalink: /
 ---
@@ -20,7 +20,11 @@ permalink: /
         <ul class="nav navbar-nav navbar-right" id="i18_navbar">
           {% for section in site.data.landing %}
           <li>
-            <a class="page-scroll" href="#{{ section.id }}">
+            {% if section.page %}
+              <a class="page-scroll" href="{{ section.page}} ">
+            {% else %}
+              <a class="page-scroll" href="{{ section.id | prepend: '#'}} ">
+            {% endif %}
               <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
             </a>
           </li>
@@ -37,10 +41,13 @@ permalink: /
     </div>
   </nav>
 </div>
+{% if site.index_carousel %}
+{% include carousel.html %}
+{% endif %}
 
 {% for section in site.data.landing %}
 {% assign loopindex = forloop.index | modulo: 2 %}
-<section id="{{ section.id }}" class="features {% if loopindex == 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0;">
+<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0;">
   {% include sections/{{section.tpl}} %}
 </section>
 {% endfor %}
@@ -58,3 +65,4 @@ iframe {
   transform-origin: top left;
 }
 </style>
+<!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->
