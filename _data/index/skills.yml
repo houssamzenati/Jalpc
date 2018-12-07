@@ -1,6 +1,63 @@
 # skills section data
 
-label: Ability
-id : cs
-aspects: GitHub, Motivation, HTML5, ReactJS, Machine Learing, Python, Sleeping
-percentage: 100, 35, 65, 80, 70, 90, 50
+- name: "YoTube: Searching Action Proposal via Recurrent and Static Regression Networks"
+  i18n:
+  img: /pubs/1706.08218.pdf.jpg
+  desc: >
+          We  present YoTube, a novel network fusion  framework  for  searching  action  proposals  in  untrimmed
+          videos. Our method consists of a recurrent YoTube detector and a static YoTube detector, where the recurrent
+          YoTube explores the regression capability of RNN for candidate bounding boxes predictions using
+          learnt temporal dynamics and the static YoTube produces the bounding boxes using rich appearance
+          cues in a single frame. &#9733; Authors contributed equally.
+  authors: Hongyuan Zhu, Romain Vial, Shijian Lu, Xi Peng, Huazhu Fu, Yonghong Tian, Xianbin Cao
+  conf: IEEE Transactions on Image Processing, Vol.27, June 2018
+  pdf: /pubs/TIP062018.pdf
+  arxiv:
+  gh: # Link to github repo
+
+- name: Graph Enhanced Memory Networks for Sentiment Analysis
+  i18n:
+  img: /pubs/ECML2017.pdf.jpg
+  desc: >
+          Memory networks model information and knowledge as memories that can be manipulated for
+          prediction and reasoning about questions of interest. In many cases, there exists complicated
+          relational structure in the data, by which the memories can be linked together into graphs to
+          propagate information. Typical examples include tree structure of a sentence and knowledge graph
+          in a dialogue system. In this paper, we present a novel graph enhanced memory network GEMN to
+          integrate relational information between memories for prediction and reasoning.
+  authors: Zhao Xu, Romain Vial, Kristian Kersting
+  conf: ECML-PKDD 2017
+  pdf: /pubs/ECML2017.pdf
+  arxiv: # Link to arXiv
+  code: # Link to repo
+
+- name: "TORNADO: A Spatio-Temporal Convolutional Regression Network for Video Action Proposal"
+  i18n:
+  img: /pubs/ICCV2017.pdf.jpg
+  desc: >
+          In this paper, we present a novel framework called TORNADO for human action proposal detection in untrimmed
+          video clips. Specifically, we propose a spatio-temporal convolutional network that combines the advantages
+          of regression-based detector and L-RCN by empowering Convolutional LSTM with regression capability.
+          &#9733; Authors contributed equally.
+  authors: Hongyuan Zhu, Romain Vial, Shijian Lu
+  conf: ICCV 2017
+  pdf: /pubs/ICCV2017.pdf
+  arxiv: # Link to arXiv
+  gh: # Link to github repo
+
+- name: Search Video Action Proposal with Recurrent and Static YOLO
+  i18n:
+  img: /pubs/ICIP2017.pdf.jpg
+  desc: >
+          In this paper, we propose a new approach for searching action
+          proposals in unconstrained videos. Our method first produces
+          snippet action proposals by combining YOLO detector and our regression
+          based RNN detector. Then, these short action proposals are
+          integrated to form final action proposals by solving two-pass
+          dynamic programming which maximizes actioness score and temporal smoothness concurrently.
+  authors: Romain Vial, Hongyuan Zhu, Yonghong Tian, Shijian Lu
+  conf: ICIP 2017
+  pdf: /pubs/ICIP2017.pdf
+  arxiv: # Link to arXiv
+  gh: # Link to github repo
+  ppt: /pubs/ICIP2017_presentation.pdf

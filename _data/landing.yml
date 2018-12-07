@@ -12,6 +12,13 @@
   tpl: career.html
   css: timeline
 
+- id: pub
+  i18n: nav.pubs
+  name: Publications
+  tpl: pubs.html
+  css: pub
+
+
 # - id: skills
 #   i18n: nav.skills
 #   name: Skills
