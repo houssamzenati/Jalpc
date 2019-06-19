@@ -24,7 +24,6 @@
   tpl: education.html
   css: education
 
-
 # - id: projects
 #   i18n: nav.projects
 #   name: Projects
