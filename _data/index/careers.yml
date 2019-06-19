@@ -1,5 +1,20 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+- name:
+    detail: Criteo AI Research/Inria Thoth
+    i18n: 
+  desc:
+    detail: I currently work on causal inference, more specifically on counterfactual risk minization. I work both at Criteo AI Lab and Inria Thoth in Grenoble.
+    i18n: company_a_desc
+  date:
+    detail: Apr. 2019 - Present
+    i18n: company_a_date
+  job:
+    detail: Research Intern
+    i18n: company_a_job
+  icon: fa-plus-square
+
 - name:
     detail: IBM Research 
     i18n: 
