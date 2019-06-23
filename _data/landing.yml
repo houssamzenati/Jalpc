@@ -10,7 +10,7 @@
   i18n: nav.research
   name: Research
   tpl: research.html
-  css: timeline
+  css: research
 
 - id: pub
   i18n: nav.pubs
