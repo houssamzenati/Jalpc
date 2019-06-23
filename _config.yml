@@ -7,7 +7,7 @@ keywords: Machine Learning, Deep Learning, Computer Vision, Reinforcement Learni
 baseurl:  /me # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://houssamzenati.github.io/me  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
-img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+img_path: /me/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
@@ -17,22 +17,22 @@ author:  # change following line to your infomation.
   avatar: /static/assets/img/landing/profil.jpg  # upload your avatar at directory and edit it.
   github_username: houssamzenati  # Leave blank if you don't have now
   linkedin_id: houssam-zenati # Leave blank if you don't have now
-  facebook_username:   # Leave blank if you don't have now
-  twitter_username:  # Leave blank if you don't have now
+  facebook_username:  # Leave blank if you don't have now
+  twitter_username: HoussamZenati  # Leave blank if you don't have now
   email: houssamzenati@student.ecp.fr  # Leave blank if you don't have now
   cv:   # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: 
-    - name: 
+    - name:
+    - name:
   skill_icon2:
-    - name: 
-    - name: 
-  desc: Hi! I am a Master's student at CentraleSupélec and Ecole Normale Supérieure Paris-Saclay. I study applied mathematics and computer science. Previously, I have been working on Deep Reinforcement Learning in Tokyo and Computer Vision and Deep Learning in Singapore.  # Describe yourself.
+    - name:
+    - name:
+  desc: Hi! I currently work on causal inference at Criteo AI Lab and Inria Thoth under Julien Mairal's supervision in Grenoble, France. I am a Master's student at CentraleSupélec and Ecole Normale Supérieure Paris-Saclay. Previously, I have been working on Deep Reinforcement Learning in Tokyo, Japan and Computer Vision and Deep Learning in Singapore.  # Describe yourself.
 
 # comment
 # disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-#   name: jalpc
+#  name: jalpc
 
 # analytics
 ## google analytics
@@ -51,8 +51,8 @@ gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your 
 donation: off  # type 'on'/'off' to choice display donation button at post page or not
 
 ## carousels
-index_carousel: off  # index page carousel switch
-blog_carousel: off  # blog page carousel switch
+index_carousel: on  # index page carousel switch
+blog_carousel: on  # blog page carousel switch
 
 # scss
 sass:
@@ -66,7 +66,4 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
-
-
-theme: jekyll-theme-minimal
+syntax_highlighter: rouge

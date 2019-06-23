@@ -1,36 +1,61 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+- name: "Optimistic mirror descent in saddle-point problems: Going the extra (gradient) mile"
+  i18n:
+  img:
+  desc: >
+
+  authors: P. Mertikopoulos, B. Lecouat, H. Zenati, C.S Foo, V. Chandrasekhar and G. Piliouras
+  conf: International Conference on Learning Representations, (ICLR) (2019), New Orleans, USA
+  pdf:
+  arxiv: https://openreview.net/pdf?id=Bkg8jjC9KQ
+  code:
+
+- name: "Semi-Supervised Deep Learning for Abnormality Classification in Retinal Images"
+  i18n:
+  img:
+  desc: >
+
+  authors: B. Lecouat, K. Chang, C.S Foo, B. Unnikrishnan, J. Brown, H. Zenati, A. Beers, V. Chandrasekhar, J. Kalpathy-Cramer and P. Krishnaswamy
+  conf: Neural Information Processing Systems, (NeurIPS) ML4H Workshop (2018), Montréal, Canada.
+  pdf:
+  arxiv: https://arxiv.org/pdf/1812.07832.pdf
+  code:
+
+
 - name: "Adversarially Learned Anomaly Detection"
   i18n:
   img:
   desc: >
-          We  present YoTube, a novel network fusion  framework  for  searching  action  proposals  in  untrimmed
-          videos. Our method consists of a recurrent YoTube detector and a static YoTube detector, where the recurrent
-          YoTube explores the regression capability of RNN for candidate bounding boxes predictions using
-          learnt temporal dynamics and the static YoTube produces the bounding boxes using rich appearance
-          cues in a single frame. &#9733; Authors contributed equally.
+
   authors: H. Zenati, M. Romain, C.S Foo, B. Lecouat and V. Chandrasekhar
   conf: IEEE International Conference on Data Mining (ICDM) (2018), Singapore.
-  pdf: /pubs/icdm18.pdf
-  arxiv:
-  gh: https://github.com/houssamzenati/Adversarially-Learned-Anomaly-Detection
+  pdf:
+  arxiv: https://arxiv.org/pdf/1812.02288.pdf
+  code: https://github.com/houssamzenati/Adversarially-Learned-Anomaly-Detection
 
 - name: "Semi-Supervised Learning With GANs: Revisiting Manifold Regularization"
   i18n:
   img:
   desc: >
-          Memory networks model information and knowledge as memories that can be manipulated for
-          prediction and reasoning about questions of interest. In many cases, there exists complicated
-          relational structure in the data, by which the memories can be linked together into graphs to
-          propagate information. Typical examples include tree structure of a sentence and knowledge graph
-          in a dialogue system. In this paper, we present a novel graph enhanced memory network GEMN to
-          integrate relational information between memories for prediction and reasoning.
+
   authors: B. Lecouat, C.S Foo, H. Zenati and V. Chandrasekhar
-  conf: ICLR Workshop Track (2018), Vancouver, Canada
-  pdf: /pubs/iclrw18.pdf
-  arxiv: # Link to arXiv
+  conf: International Conference on Learning Representations, (ICLR) Workshop Track (2018), Vancouver, Canada
+  pdf:
+  arxiv: https://arxiv.org/pdf/1805.08957.pdf
   code: https://github.com/bruno-31/GAN-manifold-regularization
 
+- name: "Efficient GAN-Based Anomaly Detection"
+  i18n:
+  img:
+  desc: >
+
+  authors: H. Zenati, C.S Foo, B. Lecouat, G. Manek  and V. Chandrasekhar
+  conf:
+  pdf:
+  arxiv: https://arxiv.org/pdf/1802.06222.pdf
+  code: https://github.com/bruno-31/GAN-manifold-regularization
 
 

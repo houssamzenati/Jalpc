@@ -18,11 +18,11 @@
   tpl: pubs.html
   css: pub
 
-- id: education
-  i18n: nav.education
-  name: Education
-  tpl: education.html
-  css: education
+#- id: education
+#  i18n: nav.education
+#  name: Education
+#  tpl: education.html
+#  css: education
 
 # - id: projects
 #   i18n: nav.projects
